@@ -84,6 +84,22 @@ pm2 monit
 # If you want to add it to startup
 pm2 save && pm2 startup
 ```
+### 💪🏻 Replit users
+
+Required Tools: 
+- Replit
+
+```bash
+# Update your npm to the latest version
+npm install npm -g
+
+git clone https://github.com/louislam/uptime-kuma.git
+npm install --production
+npm run download-dist
+
+# Option 1. Try it
+node server/server.js
+```
 
 ### Advanced Installation
 
